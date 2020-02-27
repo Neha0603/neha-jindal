@@ -1,0 +1,6 @@
+import datetime
+i1=input("enter a name")
+i2=int(input("enter a age"))
+now=datetime.datetime.now()
+diff=(100-i2)
+print(now.year+diff)
